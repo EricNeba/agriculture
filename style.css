@@ -65,6 +65,9 @@ ul li:hover ul li {
 	padding: 20px;
 	margin-left:1%;
 }
+.aside ul li{
+	background-color: #55776b;
+}
 .section {
 	color: black;
 	background:-webkit-radial-gradient(circle,brown,yellow,grey);
@@ -228,14 +231,13 @@ ul li:hover ul li {
 	background:-webkit-linear-gradient(bottom left, blue, green,white);
 }
 .footer .footer-content{
-	border: 1px solid green;
 	height: 350px;
 	display: flex;
 }
 .footer .footer-content .footer-section{
 	flex:1;
 	padding: 25px;
-	border: 1px solid white;
+	
 }
 .footer .footer-content h1,
 .footer .footer-content h2{
@@ -272,13 +274,28 @@ ul li:hover ul li {
 	font-size: 1.2em;
 	transition: all .3s;
 }
-.footer .footer-content .links ol a:hover{
+.footer .footer-content .links ol a:hover {
 	color: white;
 	margin-left: 15px;
 	transition: all .3s;
 }
-.footer .footer-content .contact-form .contact-input{
-	background: blue;
+.footer .footer-content .contact_form .contact-input {
+	background: #d192ce;
+	margin-bottom: 10px;
+	line-height: 1.5rem;
+	padding: .9rem 1.4rem;
+	width: 80%;
+	border: none;
+}
+.footer .footer-content .contact_form .contact-input:focus {
+	background: #4c4647;
+}
+.btn-big {
+	padding: .7rem 1.3rem;
+	line-height: 1.3rem;
+}
+.footer .footer-content .contact_form .contact_btn {
+	float: right;
 }
 .footer .footer_bottom{
 	background:  #4d4dff;blue;ed;
